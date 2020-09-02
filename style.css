@@ -4,6 +4,10 @@
 	margin: 0;
 }
 
+body {
+	background: rgba(195, 195, 195, 0.1);
+}
+
 .header {
 	background-image: url(Images/Header-background.jpg);
 	background-repeat: no-repeat;
@@ -62,16 +66,72 @@ nav a:hover {
 	font-family: 'Playball', cursive;
 }
 
+.main-wrapper {
+	margin: 40px 0;
+}
+
+.photo-wall div > img {
+	object-fit: cover;
+	width: 100%;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px 5px rgba(200, 200, 200, 0.657);
+}
+
+.photo-wall {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+	width: 60%;
+	grid-gap: 10px;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.photo4 {
+	grid-column: span 2;
+	justify-content: center;
+}
+
+.photo2 {
+	grid-column: span 2;
+}
+
+.photo1 {
+	grid-row: span 1;
+}
+
+.bussiness-info-text {
+	text-align: center;
+	margin: 0 auto;
+	width: 50%;
+}
+
+.bussiness-info-text p {
+	margin: 30px 0;
+}
+
+.bussiness-info-text h2 {
+	margin: 0 0 30px 0;
+	font-size: 30px;
+}
+
 .footer {
 	display: flex;
 	justify-content: space-evenly;
 	list-style: none;
-	background: rgba(255, 255, 255, 0.6);
+	background: rgba(165, 165, 165, 0.1);
+	padding: 30px 0;
 }
 
 .footer h1 {
 	font-size: 20px;
 	margin-bottom: 10px;
+	color: black;
+}
+
+.footer a {
+	color: grey;
+	text-decoration: none;
 }
 
 .Information {
@@ -96,11 +156,13 @@ nav a:hover {
 	justify-content: center;
 	align-items: center;
 	justify-content: flex-start;
+	color: rgba(128, 128, 128, 0.698);
 }
 
 .Hours span {
 	font-weight: 800;
 	margin-right: 5px;
+	color: grey;
 }
 
 .Store {
@@ -109,19 +171,21 @@ nav a:hover {
 	justify-content: center;
 	align-items: center;
 	justify-content: flex-start;
+	color: rgba(128, 128, 128, 0.698);
 }
 
 .Store span {
 	font-weight: 800;
 	margin-right: 5px;
+	color: grey;
 }
 
-a {
+.header a {
 	color: black;
 	text-decoration: none;
 }
 
-a:visited {
+.header a:visited {
 	color: black;
 	text-decoration: none;
 }
