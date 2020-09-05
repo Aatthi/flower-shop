@@ -23,15 +23,15 @@ body {
 	padding: 10px 30px;
 }
 
-.header-wrapper h1 {
+.bussiness-name {
 	color: black;
-	font-family: 'Playball', cursive;
+	font-family: 'Bad Script', cursive;
 }
 
 nav a {
 	color: black;
 	text-decoration: none;
-	font-family: 'Lobster Two', cursive;
+	font-family: 'Josefin Slab', serif;
 	font-size: 19px;
 }
 
@@ -65,6 +65,36 @@ nav a:hover {
 	background: rgba(255, 255, 255, 0.6);
 	padding: 20px 30px;
 	font-family: 'Playball', cursive;
+}
+
+.header-2 {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background: rgba(195, 195, 195, 0.2);
+	font-family: 'Josefin Slab', serif;
+	width: 100%;
+	padding: 20px 0;
+}
+
+.delivery {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.fresh-flowers {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.delivery img {
+	margin: 0 30px 10px 0;
+}
+
+.fresh-flowers img {
+	margin: 0 30px 0 0;
 }
 
 .main-wrapper {
