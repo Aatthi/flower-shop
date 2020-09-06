@@ -1,0 +1,281 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background: rgba(195, 195, 195, 0.1);
+}
+
+.header {
+	background-image: url(Images/Header-background.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+}
+
+.header-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: rgba(255, 255, 255, 0.7);
+	padding: 10px 30px;
+}
+
+.bussiness-name {
+	color: black;
+	font-family: 'Bad Script', cursive;
+	color: #ff6781;
+}
+
+nav a {
+	color: black;
+	text-decoration: none;
+	font-family: 'Josefin Slab', serif;
+	font-size: 19px;
+}
+
+nav a:hover {
+	opacity: 0.6;
+}
+
+.dropdown button {
+	border: none;
+	background: none;
+	font-family: 'Josefin Slab', serif;
+	font-family: 'Josefin Slab', serif;
+	font-size: 19px;
+}
+
+.dropdown button:hover {
+	border: none;
+	background: none;
+}
+
+.dropdown-item {
+	margin: 20px 0;
+	padding: 10px 0 10px 20px;
+}
+
+.dropdown-item:hover {
+	background: #ff6781;
+}
+
+.header-wrapper {
+	display: flex;
+}
+.header-wrapper nav {
+	display: flex;
+	list-style: none;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 60%;
+}
+
+.main-text {
+	display: flex;
+	height: 400px;
+	margin: 20px 200px;
+	color: black;
+
+	align-items: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-text h1 {
+	background: rgba(255, 255, 255, 0.7);
+	padding: 20px 30px;
+	font-family: 'Playball', cursive;
+	border-radius: 20px;
+}
+
+.header-2 {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background: rgba(195, 195, 195, 0.2);
+	font-family: 'Josefin Slab', serif;
+	width: 100%;
+	padding: 20px 0;
+}
+
+.delivery {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.fresh-flowers {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.delivery img {
+	margin: 0 30px 10px 0;
+}
+
+.fresh-flowers img {
+	margin: 0 30px 7px 0;
+}
+
+.main-wrapper {
+	margin: 40px 0;
+}
+
+.photo-wall div > img {
+	object-fit: cover;
+	width: 100%;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px 5px rgba(200, 200, 200, 0.657);
+}
+
+.horizontal {
+	margin: 80px 0;
+}
+
+hr {
+	margin: 0 auto;
+	width: 80%;
+	justify-items: center;
+	opacity: 0.3;
+}
+
+.photo-wall {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+	width: 60%;
+	grid-gap: 10px;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.photo4 {
+	grid-column: span 2;
+	justify-content: center;
+}
+
+.photo2 {
+	grid-column: span 2;
+}
+
+.photo1 {
+	grid-row: span 1;
+}
+
+.bussiness-info-text {
+	text-align: center;
+	margin: 0 auto;
+	width: 50%;
+}
+
+.bussiness-info-text p {
+	margin: 30px 0;
+	font-family: 'Josefin Slab', serif;
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.bussiness-info-text h2 {
+	margin: 0 0 30px 0;
+	font-size: 30px;
+	font-family: 'Josefin Slab', serif;
+	font-weight: 700;
+	color: #ff6781;
+}
+
+.scroll-up {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.9;
+	margin: 30px 0;
+}
+
+.scroll-up img {
+	margin: 10px 0;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-evenly;
+	list-style: none;
+	background: rgba(165, 165, 165, 0.1);
+	padding: 30px 0;
+}
+
+.footer h1 {
+	font-size: 20px;
+	margin-bottom: 10px;
+	color: black;
+}
+
+.footer a {
+	color: grey;
+	text-decoration: none;
+}
+
+.Information {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.Flowers {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.Hours {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	justify-content: flex-start;
+	color: rgba(128, 128, 128, 0.698);
+}
+
+.Hours span {
+	font-weight: 800;
+	margin-right: 5px;
+	color: grey;
+}
+
+.Store {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	justify-content: flex-start;
+	color: rgba(128, 128, 128, 0.698);
+}
+
+.Store span {
+	font-weight: 800;
+	margin-right: 5px;
+	color: grey;
+}
+
+.header a {
+	color: black;
+	text-decoration: none;
+}
+
+.header a:visited {
+	color: black;
+	text-decoration: none;
+}
