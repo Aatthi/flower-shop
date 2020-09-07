@@ -285,3 +285,164 @@ hr {
 	color: black;
 	text-decoration: none;
 }
+
+@media (max-width: 1180px) {
+	.flower-type {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		justify-content: center;
+		grid-gap: 20px;
+	}
+
+	.flower-type h1:hover {
+		transform: none;
+		transition: none;
+	}
+}
+
+@media (max-width: 975px) {
+	.main-text h1 {
+		font-size: 23px;
+	}
+
+	.main-text {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.header-2 h2 {
+		font-size: 20px;
+		padding: 5px 0;
+	}
+
+	.delivery img {
+		margin: 0 10px 15px 0;
+	}
+
+	.fresh-flowers img {
+		margin: 0 10px 7px 0;
+	}
+
+	.photo-wall {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+		grid-template-rows: repeat(auto-fit, minmax(150px, 1fr));
+	}
+
+	.horizontal {
+		margin: 40px 0;
+	}
+}
+
+@media (max-width: 785px) {
+	.photo-wall {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+@media (max-width: 700px) {
+	.flower-type {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+
+@media (max-width: 640px) {
+	.header-wrapper {
+		display: flex;
+		flex-direction: column;
+
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.header-wrapper nav {
+		display: flex;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	nav a {
+		width: 100%;
+	}
+
+	.header-2 {
+		display: flex;
+		justify-content: space-evenly;
+		align-items: flex-start;
+		background: rgba(195, 195, 195, 0.2);
+		font-family: 'Josefin Slab', serif;
+		width: 100%;
+		padding: 20px 0;
+	}
+
+	.delivery {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.fresh-flowers {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.delivery img {
+		margin: 0;
+	}
+
+	.fresh-flowers img {
+		margin: 0;
+	}
+
+	.bussiness-info-text {
+		width: 70%;
+	}
+
+	.footer {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (max-width: 400px) {
+	.header-wrapper nav {
+		display: flex;
+		flex-direction: column;
+	}
+
+	nav li {
+		margin: 10px 0;
+	}
+
+	.main-text h1 {
+		font-size: 18px;
+	}
+
+	.header-2 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		padding: 20px 0;
+	}
+	.bussiness-info-text {
+		width: 100%;
+	}
+
+	.footer {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
