@@ -173,11 +173,12 @@ hr {
 
 .photo-wall {
 	display: grid;
-	grid-template-columns: repeat(4, minmax(200px, 1fr));
-	width: 60%;
+	grid-template-columns: repeat(3, minmax(200px, 1fr));
+	width: 80%;
 	grid-gap: 40px;
 	justify-content: center;
 	margin: 0 auto;
+	align-items: center;
 }
 
 .flower-type {
