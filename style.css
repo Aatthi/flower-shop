@@ -150,15 +150,22 @@ hr {
 
 .photo-wall {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-	grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	grid-template-columns: 1fr 1fr;
+
 	width: 60%;
 	grid-gap: 10px;
-	justify-content: center;
+
 	margin: 0 auto;
 }
 
-.photo4 {
+.photo3 {
+	column-width: ;
+}
+
+/* .photo4 {
 	grid-column: span 2;
 	justify-content: center;
 }
@@ -169,7 +176,7 @@ hr {
 
 .photo1 {
 	grid-row: span 1;
-}
+} */
 
 .bussiness-info-text {
 	text-align: center;
